@@ -1,0 +1,27 @@
+body {
+    margin-top: 50px;
+}
+
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#transparent {    
+    margin: 15px;
+    padding: 50px;
+    background: #FFF; /* fundo branco para navegadores que não suportam rgba */
+    background: rgba(255,255,255,0.8); /* fundo branco com um pouco de transparência */
+    
+}
+
+#head {
+    padding: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background: url(../img/head.jpg) no-repeat center center scroll;
+}
+
+#head h1 {
+    color: #FFF;
+}
